@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Estonia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.img{
+    width:100%;
+}
+ul{
+    list-style: none;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+li {
+text-align: center;
+background-color: rgb(33, 156, 156);
+color:white;
+margin:5px;
+padding: 5px;
+font-family: 'Merriweather', serif;
+}
+header p{
+    width: 80%;
+    margin: auto;
+    font-family: 'Estonia', cursive;
+    text-align: center;
+    font-size: 1.4em;
+}
+.left-side{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+}
+.left-side h2{
+    margin: 10px;
+}
+button{
+    width:100px;
+    margin:auto;
+    padding: 5px;
+    background-color: cadetblue;
+    color: cornsilk;
+}
+video{
+    width: 100%; 
+    margin: auto;
+    margin-top: 50px;
+}
+.bottom {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 1 em;
+    width: 80%;
+    margin: auto;
+}
+.box img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.destination{
+    font-weight: bold;
+    margin: 5px;
+    margin-top:20px ;
+}
+.deal{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.box-btn{
+    margin-bottom: 10px;
+}
+.box-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media screen and (min-width: 768) {
+
+    li{
+       display: inline-block ;
+   }
+   .middle{
+       display: flex;
+       justify-content: space-around;
+   }
+}
